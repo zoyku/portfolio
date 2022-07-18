@@ -1,91 +1,126 @@
 body{
-    background-color: rgba(220, 220, 220, 0.8);
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background-color: rgba(241, 239, 239, 0.809);
+    /*background-color: rgba(220, 220, 220, 0.8);*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
 }
 
-.barAbove{
+.bar-above{
     background-color:rgb(0, 0, 0,0.75);
-    text-align:center ;
+    text-align:center;
+    font-size: 20px;
     float:left;
     width:20%;
     margin:auto;
     color:rgb(228, 228, 228);
-    padding-top: 10px;
+    padding-top: 15px;
     border-bottom: solid #ccc;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     white-space: nowrap;
     overflow: hidden;
 }
 
-.barAbove a {
+.bar-above a {
     text-decoration: none;
     color:rgb(228, 228, 228);
 }
 
-.barAbove a:hover{
-    color: rgb(157, 127, 192);
+.bar-above a:hover{
+    color: rgb(167, 145, 193);
 }
 
-.me{
-    margin-top: 50px;
+img{
+    transition: 0.7s;
+    border-radius: 170px;
+    margin-top: 30px;
     margin-left:50px;
-    position:relative;
 }
 
-#aboutMe{
-    position:absolute;
-    right: 10px;
-    top: 30px;
+img:hover{
+    transform: scale(105%);
+}
+
+button{
+    border-radius: 5px;
+}
+
+aside{
+    position:relative;
+    left: 660px;
+    bottom: 510px;
     width:50%;
     box-sizing: border-box;
+    padding-bottom: 15px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0,0.8);
 }
 
 #salut{
+    /*background-color: aqua;*/
     float:right;
-    margin-right:100px;
-    margin-top: 160px;
+    margin-right:98px;
     font-size: 60px;
     box-sizing: border-box;
 }
 
 #intro{
+    /*background-color: violet;*/
     float:right;
     margin-right:40px;
     margin-top: 10px;
+    margin-left: 3px;
     font-size: 20px;
     box-sizing: border-box;
 }
 
-#readAbtMe{
+#read-abt-me{
     background-color: rgb(0, 0, 0,0.8);
+    margin-left: 3px;
 }
 
-#readAbtMe a{
+#read-abt-me a{
     text-decoration: none;
+    text-align: center;
+    font-size: 20px;
     color:rgb(228, 228, 228);
 }
 
-#readAbtMe a:hover{
-    color:rgb(0, 0, 0);
+#read-abt-me a:hover{
+    color: rgb(167, 145, 193);
 }
 
 #foot{
+    border-top: solid #ccc;
     background-color: rgb(0, 0, 0,0.8);
     color:rgb(228, 228, 228);
     padding-bottom: 30px;
 }
 
-#foot textarea{
-    margin-top: 15px;
+#foot p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#contact-me{
+    /*background-color: beige;*/
+    position:relative;
+    left: 660px;
+    bottom: 510px;
+    margin-top: 20px;
+    width:50%;
+}
+
+#contact-me textarea{
+    margin-top: 20px;
     margin-left:5px;
-    padding-bottom:20px;
-    width:30%;
+    padding-bottom:50px;
+    padding-right: 150px;
 }
 
 .message{
-    border-top: 10px;
-    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 
