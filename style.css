@@ -113,7 +113,7 @@ button{
     margin-bottom: 10px;
 }
 
-#achive-header{
+.part-header{
     background-color: rgb(0, 0, 0,0.8);
     color:rgb(228, 228, 228);
     text-align: center;
@@ -144,14 +144,14 @@ button{
     border-radius: 100%;
 }
 
-#contact-header{
+/*#contact-header{
     background-color: rgb(0, 0, 0,0.8);
     color:rgb(228, 228, 228);
     text-align: center;
     padding: 20px;
     border-top: solid 2px #ccc;
     border-bottom: solid 2px #ccc;
-}
+}*/
 
 #contact{
     display: flex;
